@@ -204,6 +204,8 @@ print "#{name} VM was started"</string>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -244,7 +246,7 @@ puts Vmware::Alfred.list_running
 			<key>uid</key>
 			<string>457E7B21-3BB1-4CC4-B73A-274BBDA89C1B</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -253,6 +255,8 @@ puts Vmware::Alfred.list_running
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -298,7 +302,7 @@ puts Vmware::Alfred.list_idle(search_paths)</string>
 			<key>uid</key>
 			<string>19857D45-C308-491E-A96A-39B7EC322E87</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -357,6 +361,8 @@ print "#{name} VM was started"</string>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -397,7 +403,7 @@ puts Vmware::Alfred.list_running</string>
 			<key>uid</key>
 			<string>8ECBB7F8-22E4-46BB-8E0F-6B8803D5CDF5</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -462,6 +468,8 @@ print "#{name} VM was reset"</string>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -502,7 +510,7 @@ puts Vmware::Alfred.list_running</string>
 			<key>uid</key>
 			<string>CDD43DF1-0426-4044-8076-098B415DAD81</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -567,6 +575,8 @@ print "#{name} VM was stopped"</string>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -607,7 +617,7 @@ puts Vmware::Alfred.list_running</string>
 			<key>uid</key>
 			<string>CA5FD44E-C034-45B6-9047-B32DB835BA49</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -757,7 +767,7 @@ print "#{name} VM was hard stopped"</string>
 	<key>variables</key>
 	<dict>
 		<key>vmpath</key>
-		<string>/Users/sysop_host/Virtual Machines/</string>
+		<string>/Users/fatih/Virtual Machines.localized/</string>
 	</dict>
 	<key>version</key>
 	<string></string>

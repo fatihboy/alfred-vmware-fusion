@@ -18,10 +18,10 @@ module Vmware
 
     def vm_details(vm)
       name_chunks = vm.split('/').last.split('.')
-      #extension = name_chunks.pop
+      extension = name_chunks.pop
       name = name_chunks.join('.')
       path = vm.strip
-      { :name => name, :path => path }
+      { :name => name, :extension => extension, :path => path }
     end
 
     def build_items(items)
@@ -51,7 +51,7 @@ module Vmware
 
     def build_item(item)
       <<-EOF
-  <item uid="#{item[:uid]}" arg="#{item[:name]}:#{item[:path]}" valid="yes">
+  <item uid="#{item[:uid]}" arg="#{item[:name]}.#{item[:extension]}:#{item[:path]}" valid="yes">
     <title>#{item[:name]}</title>
     <subtitle>#{item[:path]}</subtitle>
     <icon>icon.png</icon>
